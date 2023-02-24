@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" /> -->
+    <script src="https://kit.fontawesome.com/d30c33c832.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navContainer">
+            <div class="navMenuBar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="navSearchBarContainer">
+                <button class="navBtn d-flex align-items-center gap-2 mx-2"><span class="fs-6"> Products</span><i class="fa-solid fa-chevron-down "></i></button>
+                   
+                <div class="d-flex justify-content-between align-items-center navSearchBar">
+                    <input type="text" class="search w-100" placeholder="Search by products and services">
+                    <i class="fa-solid fa-search"></i>
+                </div>
+            </div>
+            <div class="navFilter">
+                <a href="/src/Categories.html"><i class="fa-solid fa-filter"></i>
+                <span>Filter</span></a>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container mb-3">
+            <div class=" d-flex flex-wrap gap-2 justify-content-center">
+                <div class="col-lg-4 mt-4">
+                    <button class="btn btn-sm strtbtn text-dark p-3 ">Request Anything</button>
+                </div>
+                <div class="col-lg-4  mt-4">
+                    <button class="btn btn-sm strtbtn  text-dark  p-3 ">Create Events</button>
+                </div>
+                <div class="col-lg-4  mt-4">
+                    <button class="btn btn-sm strtbtn  text-dark  p-3 ">Auction Items</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container mt-5 mb-3">
+            <div class="">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item slider active " style="background: url('/assets/images/watch4.jpg') ; background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;">
+                            <!-- <img src="/assets/images/watch4.jpg" class="d-block w-00" alt="..."> -->
+                        </div>
+                        <div class="carousel-item slider" style="background: url('/assets/images/watch5.jpg') ; background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;">
+                            <!-- <img src="/assets/images/watch2.jpg" class="d-block w-100" alt="..."> -->
+                        </div>
+                        <div class="carousel-item slider" style="background: url('/assets/images/watch3.jpg') ; background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;">
+                            <!-- <img src="/assets/images/watch3.jpg" class="d-block w-100" alt="..."> -->
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-3">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <p class="h4">Explore popular Categories</p>
+                </div>
+                <div>
+                    <a href="/src/Categories.html">View all</a>
+                </div>
+            </div>
+            <div class="iconsBoxContainer mt-3">
+                <div class="iconbox">
+                    <i class="fa-solid fa-building fa-3x"></i>
+                    <p>Facility Management</p>
+
+                </div>
+                <div class="iconbox">
+                    <i class="fa-solid fa-ship fa-3x"></i>
+                    <p>Logistics</p>
+
+                </div>
+                <div class="iconbox">
+                    <i class="fa-solid fa-home fa-3x"></i>
+                    <p>Construction</p>
+
+                </div>
+                <div class="iconbox">
+                    <i class="fa-solid fa-mobile fa-3x"></i>
+                    <p>Electronic Components</p>
+
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-light px-2">
+        <div class="container mt-5 mb-5">
+            <div class="border-bottom-dark">
+
+                <div class="d-flex justify-content-between">
+                    <p class="h4">
+                        Trending auctions
+                    </p>
+                    <a href="#">View All</a>
+                </div>
+                <p>See what's popular across thousands of Auctions</p>
+            </div>
+
+        </div>
+
+         <div id="carouselExampleControls" class="carousel " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch.jpg" class="d-block w-100" alt="Watch">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch8.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="bg-light px-2">
+        <div class="container mt-5 mb-5">
+            <div class="border-bottom-dark">
+
+                <div class="d-flex justify-content-between">
+                    <p class="h4">
+                        Featured Products
+                    </p>
+                    <a href="/src/Categories.html">View All</a>
+                </div>
+                <p>See what's popular across thousands of Auctions</p>
+            </div>
+
+        </div>
+
+        <div id="carouselExampleControls" class="carousel " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.876 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch8.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="bg-light px-2">
+        <div class="container mt-5 mb-5">
+            <div class="border-bottom-dark">
+
+                <div class="d-flex justify-content-between">
+                    <p class="h4">
+                        Featured services
+                    </p>
+                    <a href="/src/Categories.html">View All</a>
+                </div>
+                <p>See what's popular across thousands of Auctions</p>
+            </div>
+
+        </div>
+
+        <div id="carouselExampleControls" class="carousel " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch7.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch8.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="img-wrapper"><img src="/assets/images/watch5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+                            <p class="h6">$18.50</p>
+                            <p>Time left</p>
+                            <p class="text-danger">6d 13h 52 sec</p>
+                            <p>5 bids</p>
+                            <p>+$11.60 shipping</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class=" px-2">
+        <div class="container  mb-5">
+            <div class="">
+
+                <div class="d-flex justify-content-between">
+                    <p class="h4 mt-3">
+                        Featured Events
+                    </p>
+
+                </div>
+                <p>See what's popular across thousands of Auctions</p>
+            </div>
+
+        </div>
+
+        <div id="carouselExampleControls" class="carousel " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <button class="btn btn-primary me-2">New</button>
+                            <button class="btn btn-primary">Scheduled</button>
+                            <div class="d-flex flex-wrap justify-content-between">
+                                <p class="h6 mt-2">Requirement of 2000 Diodes at Nasik plant</p>
+                                <i class="fas fa-calendar" aria-hidden="true"></i>
+                            </div>
+
+                            <p class="card-text">Sat, 02:PM onwards</p>
+                            <div class="row">
+                                <div class="col gap-2">
+                                    <i class="fa fa-user w-20 me-2" aria-hidden="true"></i>
+                                    <span>Andrew Smith</span>
+                                    <span>Global foundries</span>
+                                </div>
+                            </div>
+                            <div class=" gap-2 text-success">
+                                <i class="fa fa-user-circle me-2" aria-hidden="true"></i>
+                                <span>one on one</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <button class="btn btn-primary me-2">New</button>
+                            <button class="btn btn-primary">Scheduled</button>
+                            <div class="d-flex flex-wrap justify-content-between">
+                                <p class="h6 mt-2">Requirement of 2000 Diodes at Nasik plant</p>
+                                <i class="fas fa-calendar" aria-hidden="true"></i>
+                            </div>
+
+                            <p class="card-text">Sat, 02:PM onwards</p>
+                            <div class="row">
+                                <div class="col gap-2">
+                                    <i class="fa fa-user w-20 me-2" aria-hidden="true"></i>
+                                    <span>Andrew Smith</span>
+                                    <span>Global foundries</span>
+                                </div>
+                            </div>
+                            <div class=" gap-2 text-success">
+                                <i class="fa fa-user-circle me-2" aria-hidden="true"></i>
+                                <span>one on one</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <button class="btn btn-sm btn-primary me-2">New</button>
+                            <button class="btn btn-sm btn-primary">Scheduled</button>
+                            <div class="d-flex flex-wrap justify-content-between">
+                                <p class="h6 mt-2">Requirement of 2000 Diodes at Nasik plant</p>
+                                <i class="fas fa-calendar" aria-hidden="true"></i>
+                            </div>
+
+                            <p class="card-text">Sat, 02:PM onwards</p>
+                            <div class="row">
+                                <div class="col ">
+                                    <i class="fa fa-user w-20 me-2" aria-hidden="true"></i>
+                                    <span>Andrew Smith</span>
+                                    <span>Global foundries</span>
+                                </div>
+                            </div>
+                            <div class=" gap-2 text-success">
+                                <i class="fa fa-user-circle me-2" aria-hidden="true"></i>
+                                <span>one on one</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <script src="query.js"></script>
+
+
+</body>
+
+</html>
+
+<!-- 
+<div class="card">
+    <div class="img-wrapper"><img src="/assets/images/watch.jpg"  alt="Watch">
+    </div>
+    <div class="card-body">
+        <p class="h6">MENS SEIKO KENETIC TITANIUM 100M WRIST WATCH! No Reserve!</p>
+        <p class="h6">$18.50</p>
+        <p>Time left</p>
+        <p class="text-danger">6d 13h 52 sec</p>
+        <p>5 bids</p>
+        <p>+$11.60 shipping</p>
+    </div>
+</div> -->
